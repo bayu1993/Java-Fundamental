@@ -1,5 +1,6 @@
 package com.bayupamuji.dicodingjavafundamental.basic;
 
+import com.bayupamuji.dicodingjavafundamental.basic.io.IoBufferedReader;
 import com.bayupamuji.dicodingjavafundamental.basic.io.IoFunction;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Kereta;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Mobil;
@@ -25,5 +26,6 @@ public class Main {
         System.out.println("Besok adalah hari "+tommorow);
 
         IoFunction.ioFunction();
+        IoBufferedReader.userBufferedReader();
     }
 }
