@@ -6,6 +6,7 @@ import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Kereta;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Mobil;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Motor;
 import com.bayupamuji.dicodingjavafundamental.basic.music.Gitar;
+import com.bayupamuji.dicodingjavafundamental.basic.operator.*;
 import org.apache.commons.lang3.time.DateUtils;
 
 import java.util.Date;
@@ -14,7 +15,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello World!");
+        /*System.out.println("Hello World!");
         Gitar.bunyi();
         Mobil.jmlBan();
         Kereta.jmlBan();
@@ -26,6 +27,12 @@ public class Main {
         System.out.println("Besok adalah hari "+tommorow);
 
         IoFunction.ioFunction();
-        IoBufferedReader.userBufferedReader();
+        IoBufferedReader.userBufferedReader();*/
+
+        OperatorAssignment.tryAssignment();
+        AritmatikaOperator.printResult();
+        UnaryOperator.getResults();
+        EqualityOperator.printResult();
+        ConditionOperator.getResult();
     }
 }
