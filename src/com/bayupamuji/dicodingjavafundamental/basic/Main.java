@@ -1,16 +1,7 @@
 package com.bayupamuji.dicodingjavafundamental.basic;
 
-import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Kereta;
-import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Mobil;
-import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Motor;
-import com.bayupamuji.dicodingjavafundamental.basic.music.Gitar;
 import com.bayupamuji.dicodingjavafundamental.basic.oop.BangunDatar;
-import com.bayupamuji.dicodingjavafundamental.basic.oop.Hewan;
-import com.bayupamuji.dicodingjavafundamental.basic.oop.KelasA;
-import com.bayupamuji.dicodingjavafundamental.basic.oop2.KelasB;
-import org.apache.commons.lang3.time.DateUtils;
-
-import java.util.Date;
+import com.bayupamuji.dicodingjavafundamental.basic.oop.HewanImpl;
 
 public class Main {
 
@@ -27,8 +18,8 @@ public class Main {
         Date tommorow = DateUtils.addDays(today,1);
         System.out.println("Besok adalah hari "+tommorow);*/
 
-        Hewan kambing = new Hewan("Kambing");
-        Hewan sapi = new Hewan("Sapi");
+        HewanImpl kambing = new HewanImpl("Kambing");
+        HewanImpl sapi = new HewanImpl("Sapi");
         BangunDatar bangunDatar = new BangunDatar();
 
         kambing.setBerat(56);

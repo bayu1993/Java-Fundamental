@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e57a455-df1e-4688-b652-7e85f89e7e8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Lingkaran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Hewan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,34 +32,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1993" />
+          <entry key="java" value="2115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1993" />
+          <entry key="JAVA" value="2115" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="313">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Lingkaran.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -92,17 +93,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Hewan.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
               <folding>
                 <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,19 +158,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/kendaraan/Motor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-              <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/kendaraan/Kereta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -192,6 +189,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -206,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/kendaraan/Motor.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/kendaraan/Mobil.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/TryOOP.java" />
-        <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Hewan.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/BangunDatar.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/KelasA.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop2/KelasB.java" />
@@ -214,6 +211,9 @@
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Lingkarang.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Main.java" />
         <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Lingkaran.java" />
+        <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Hewan.java" />
+        <option value="$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanImpl.java" />
       </list>
     </option>
   </component>
@@ -278,7 +278,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544863385558" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544864426230" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-lang3-3.7.jar!/" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -301,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.bayupamuji.dicodingjavafundamental.basic.Main" />
       <module name="DicodingJavaFundamental" />
@@ -331,8 +331,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -433,21 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/Hewan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/BangunDatar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -470,16 +455,6 @@
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,6 +483,38 @@
           <folding>
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/oop/HewanImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bayupamuji/dicodingjavafundamental/basic/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
