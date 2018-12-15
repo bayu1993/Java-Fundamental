@@ -4,6 +4,7 @@ import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Kereta;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Mobil;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Motor;
 import com.bayupamuji.dicodingjavafundamental.basic.music.Gitar;
+import com.bayupamuji.dicodingjavafundamental.basic.oop.BangunDatar;
 import com.bayupamuji.dicodingjavafundamental.basic.oop.Hewan;
 import org.apache.commons.lang3.time.DateUtils;
 
@@ -26,6 +27,7 @@ public class Main {
 
         Hewan kambing = new Hewan("Kambing");
         Hewan sapi = new Hewan("Sapi");
+        BangunDatar bangunDatar = new BangunDatar();
 
         kambing.setBerat(56);
         kambing.setJmlKaki(4);
@@ -34,5 +36,7 @@ public class Main {
         sapi.setBerat(180);
         sapi.setJmlKaki(4);
         sapi.printHewan();
+
+        bangunDatar.getLuas();
     }
 }
