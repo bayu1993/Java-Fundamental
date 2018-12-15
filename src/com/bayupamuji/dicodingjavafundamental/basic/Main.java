@@ -1,5 +1,6 @@
 package com.bayupamuji.dicodingjavafundamental.basic;
 
+import com.bayupamuji.dicodingjavafundamental.basic.array.TryArray;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Kereta;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Mobil;
 import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Motor;
@@ -22,5 +23,6 @@ public class Main {
         System.out.println("Hari ini adalah hari "+today);
         Date tommorow = DateUtils.addDays(today,1);
         System.out.println("Besok adalah hari "+tommorow);
+        TryArray.getResult();
     }
 }
