@@ -6,6 +6,8 @@ import com.bayupamuji.dicodingjavafundamental.basic.kendaraan.Motor;
 import com.bayupamuji.dicodingjavafundamental.basic.music.Gitar;
 import com.bayupamuji.dicodingjavafundamental.basic.oop.BangunDatar;
 import com.bayupamuji.dicodingjavafundamental.basic.oop.Hewan;
+import com.bayupamuji.dicodingjavafundamental.basic.oop.KelasA;
+import com.bayupamuji.dicodingjavafundamental.basic.oop2.KelasB;
 import org.apache.commons.lang3.time.DateUtils;
 
 import java.util.Date;
