@@ -1,6 +1,7 @@
 package com.bayupamuji.dicodingjavafundamental.basic.oop;
 
 import com.bayupamuji.dicodingjavafundamental.basic.oop2.KelasB;
+import sun.awt.image.ImageWatched;
 
 public class Main extends KelasB{
     public static void main(String[] args) {
@@ -12,5 +13,8 @@ public class Main extends KelasB{
         System.out.println(kelasA.functionB());
 
         main.functionC();
+
+        //static gk perlu instace object dan langsung bisa diakses.
+        System.out.println("Luas Lingkaran : "+Lingkaran.hitungLuas(7));
     }
 }
